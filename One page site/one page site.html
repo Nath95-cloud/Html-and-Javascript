@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fiorra's Flowers | Service</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="one page site.css"></link>
+        <script src="one page site.js"></script>
+        </head>
+        <body>
+            <div>
+                <div>
+                    <ul>
+                        <a href="#home" id="link">HOME</li></a>
+                        <a href="#Gallery" id="link">GALLERY</li></a>
+                        <a href="Contact" id="link">CONTACT</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div id=#Home>
+                <div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div id="#Gallery">
+                    <h2>Gallery</h2>
+                    <div class="row">
+                        <div class="column">
+                            <image src="https://images.pexels.com/photos/670741/pexels-photo-670741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow"></image>
+                        </div>
+                        <div class="column">
+                            <img src="https://images.pexels.com/photos/29158226/pexels-photo-29158226/free-photo-of-purple-hydrangea-flower-close-up-with-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">                          
+                        </div>
+                        <div class="column">
+                            <img src="https://images.pexels.com/photos/4078991/pexels-photo-4078991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" onclick="openModal();currentSlide(3)"class="hover-shadow">
+                        </div>
+                        <div class="column">
+                            <img src="https://images.pexels.com/photos/16692757/pexels-photo-16692757/free-photo-of-close-up-of-periwinkle-flowers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" onclick="openModal();currentSlide(4)"class="hover-shadow">
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="Modal-content">
+                            <div>
+                            <div class="mySlides">
+                                <div class="numbertext">1/4</div>
+                                <img src="https://images.pexels.com/photos/670741/pexels-photo-670741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" style="width:25%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext">2/4</div>
+                                <img src="https://images.pexels.com/photos/29158226/pexels-photo-29158226/free-photo-of-purple-hydrangea-flower-close-up-with-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" style="width:25%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext">3/4</div>
+                                <img src="https://images.pexels.com/photos/4078991/pexels-photo-4078991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" style="width:25%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext">4/4</div>
+                                <img src="https://images.pexels.com/photos/16692757/pexels-photo-16692757/free-photo-of-close-up-of-periwinkle-flowers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" style="width:25%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                            <a class="mext" onclick="plusSlides(1)">&#10095</a>
+                            <div class="caption-container">
+                                <p id="caption"></p>
+                            </div>
+                            <div class="column">
+                                <img class="demo" src="https://images.pexels.com/photos/670741/pexels-photo-670741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" onclick="currentSlide(1)" alt="Red Flower"> 
+                            </div>
+                            <div class="column">
+                                <img class="demo" src="https://images.pexels.com/photos/29158226/pexels-photo-29158226/free-photo-of-purple-hydrangea-flower-close-up-with-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" onclick="currentSlide(2)" alt="Purple Flower">   
+                            </div>
+                            <div class="column">
+                                <img class="demo" src="https://images.pexels.com/photos/4078991/pexels-photo-4078991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" onclick="currentslide(3)" alt="Blue Flower">
+                            </div>
+                            <div class="column">
+                                <img class="demo" src="https://images.pexels.com/photos/16692757/pexels-photo-16692757/free-photo-of-close-up-of-periwinkle-flowers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" onclick="currentSlide(4)" alt="purple Flower2">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </section>
+        </body>
+</html> 
